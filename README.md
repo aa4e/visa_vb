@@ -11,7 +11,7 @@
 
 - Отображение идентификатора прибора:
 
-```
+```vbnet
 Dim devs As String() = VisaDevice.GetVisaDevices()
 
 Using vi As New VisaDevice(devs(0))
@@ -21,7 +21,7 @@ End Using
 
 - Запрос мощности у измерителя мощности NRP:
 
-```
+```vbnet
 ''' <summary>
 ''' Запрашивает у NRP и возвращает измеренную мощность, в дБм.
 ''' </summary>
